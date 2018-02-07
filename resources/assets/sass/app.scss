@@ -4,9 +4,20 @@
 
 // Variables
 @import "variables";
+
 //font-awesome
-@@import "node_modules/font-awesome/scss/font-awesome";
+@import "node_modules/font-awesome/scss/font-awesome";
+
 // Bluma
 @import "node_modules/bluma/bluma";
 
-@@import "node_modules/buefy/src/scss/buefy";
+//Bluma vue modules
+@import "node_modules/buefy/src/scss/buefy";
+
+//custom sass pages
+
+@import "overrides";
+@import "helpers";
+@import "styles";
+
+
